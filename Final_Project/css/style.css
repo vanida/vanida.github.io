@@ -16,7 +16,7 @@ body{
 }
 
 header{
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 0px solid rgba(0, 0, 0, 0.1);
   background-color: white;
   opacity: ;
   width: 100%;
@@ -69,7 +69,7 @@ header{
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background-color: none;
   margin-bottom: 50px;
-  color: #777;
+  color: black;
   line-height: 20px;
   font: 20px "Museo 300", Helvetica, Arial, sans-serif;
 }
@@ -121,53 +121,59 @@ nav ul li:active a{
 .container .motion .work{
   float: left;
   margin-right: 66px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 250px;
 }
 
 .container .illustration{
+  padding-top: 50px;
   padding-bottom: 25px;
-  margin-right: -100px;
+  margin-right: -30px;
 }
 
 .container .illustration .work{
   float: left;
-  margin-right: 66px;
+  margin-right: 30px;
   margin-bottom: 100px;
-  width: 250px;
+  width: 175px;
 }
 
 .container .design{
+  padding-top: 50px;
   padding-bottom: 25px;
-  margin-right: -100px;
+  margin-right: -30px;
 }
 
 .container .design .work{
   float: left;
-  margin-right: 66px;
+  margin-right: 30px;
   margin-bottom: 100px;
-  width: 250px;
+  width: 175px;
 }
 
 .footer_bar{
+  margin-top: 100px;
   width: 100%;
+  height: 150px;
   background-color: #eeeeee;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 footer{
+  padding: 20px;
   font: 10pt Helvetica, Arial, sans-serif;
-  margin: 0px auto;
   width: 1200px;
   text-transform: uppercase;
 }
-
+  
 .profile_pic{
+  padding-top: 50px;
   margin-top: 35px;
   background-color: none;
 }
 
 .about{
+  padding-top: 50px;
   background-color: none;
   float: right;
   width: 568px;
@@ -187,11 +193,17 @@ footer{
   margin-bottom: 0px;
 }
 
+
 .about p{
   background-color: none;
-  color: #777;
+  color: black;
   font-size: 12pt;
   line-height: 25px;
+}
+
+.about_header a{
+  text-decoration: none;
+  color: #00c4df;
 }
 
 .about .contact{
@@ -202,9 +214,10 @@ footer{
 
 .about .contact a{
   background-color: none;
-  float:right;
+  float:left;
   width:55px;
 }
+
 
 .about .contact p{
   background-color: none;
